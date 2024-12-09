@@ -1,0 +1,9 @@
+language: php
+
+php:
+- '8.0'
+- '8.1'
+script:
+ - php -l index.php
+  - php -l nasa.php
+   - php -l webservice.php
